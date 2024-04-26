@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1B1C1F;
+}
+
+.navigation{
+    background-color: #323335;
+    border-radius: 24px;
+    width: 416px;
+    justify-content: center;
+}
+
+
+@media (max-width: 990px){
+    .menu-bg{
+        background-color: #323335;
+    }
+    .menu-btn{
+        background-color: white;
+    }
+    .nav-link{
+        margin: 0 !important;
+    }    
+}
