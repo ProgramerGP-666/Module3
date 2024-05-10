@@ -13,6 +13,75 @@ body{
     justify-content: center;
 }
 
+.hero-title{
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.hero-desc{
+    font-size: 24px;
+    line-height: 1.35;
+}
+
+.btn-purple{
+    background-color: #8d46f6;
+    padding: 16px 40px;
+}
+
+.btn-purple:hover{
+    background-color: #7f37ea;
+}
+
+.gta-img{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1.5;
+    border-radius: 56px;
+    background-color: #8b72ff;
+    margin-right: 16px;
+}
+
+.gta-img:hover{
+    background-color: #8d46f6;
+}
+
+.fortnite-img{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+    border-radius: 56px;
+    background-color: #fdf386;
+}
+
+.fortnite-img:hover{
+    background-color: #71e66e;
+}
+
+.dota-img{
+    height: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 56px;
+    background-color: #69adfd;
+    margin-top: 16px;
+}
+
+.dota-img:hover{
+    background-color: #fcb8ff;
+}
+
+.dota-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
 
 @media (max-width: 990px){
     .menu-bg{
@@ -24,4 +93,16 @@ body{
     .nav-link{
         margin: 0 !important;
     }    
+    .hero-title{
+        font-size: 48px;
+    }
+    .hero-desc{
+        font-size: 20px;
+    }
+    .btn-purple{
+        display: block;
+    }
+    .card-games{
+        margin-top: 40px;
+    }
 }
