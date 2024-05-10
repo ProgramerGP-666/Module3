@@ -83,6 +83,19 @@ body{
     object-position: center;
 }
 
+@keyframes rotation{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+
+.logo{
+    animation: rotation 10s infinite linear;
+}
+
 @media (max-width: 990px){
     .menu-bg{
         background-color: #323335;
