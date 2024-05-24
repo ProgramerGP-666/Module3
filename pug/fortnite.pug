@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    header
+        .fortnite-box
+            .container 
+                .row 
+                    .col-xxl-6.col-md-12 
+                        h1.text-white.hero-title Fortnite
+                        p.hero-desc.text-white.my-5 Fortnite предлагает своим игрокам массу разнообразных возможностей. Высаживайтесь на остров и поборитесь за звание сильнейшего игрока — или команды. Развлекайтесь с друзьями, смотрите вместе фильмы и концерты. Создайте собственный мир с собственными правилами. Или сразитесь с Бурей, бросив вызов полчищам чудовищ.
+                        p.hero-desc.text-white В Fortnite вы можете выбрать из тысяч разных игр: какие-то из них созданы Epic Games, но большинство игр появилось благодаря участникам игрового сообщества.
+    main
+        section.gallery.pt-5
+            .container 
+                h1.gallery-title.my-5 Галерея
+                .swiper.mySwiper 
+                    .swiper-wrapper 
+                        .swiper-slide 
+                            img(src="img/pic/slider/fortnite-slide-1.png")
+                        .swiper-slide 
+                            img(src="img/pic/slider/fortnite-slide-2.png")
+                    .swiper-button-next
+                    .swiper-button-prev

@@ -96,6 +96,61 @@ body{
     animation: rotation 10s infinite linear;
 }
 
+.dota-box, .gta-box, .fortnite-box{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    height: calc(100vh - 110px)
+}
+
+.dota-box{
+    background-image: url(img/pic/dota-big.png)
+}
+
+.fortnite-box{
+    background-image: url(img/pic/fortnite-big.png)
+}
+
+.gta-box{
+    background-image: url(img/pic/gta-big.png)
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide{
+    width: 80%;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-title{
+
+}
+
+.gallery, .articles{
+    background-color: #F1EFE4;
+}
+
 @media (max-width: 990px){
     .menu-bg{
         background-color: #323335;

@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    header
+        .gta-box
+            .container 
+                .row 
+                    .col-xxl-6.col-md-12 
+                        h1.text-white.hero-title GTA V
+                        p.hero-desc.text-white.my-5 Grand Theft Auto 5 — легендарное продолжение популярной серии Grand Theft Auto. Местом действия стал город Лос-Сантос, полюбившийся ещё в GTA: San Andreas.
+                        p.hero-desc.text-white Впервые игра расскажет историю сразу трех персонажей: Майкла, Тревора и Франклина, между которыми вы сможете переключаться в любое время.
+    main
+        section.gallery.pt-5
+            .container 
+                h1.gallery-title.my-5 Галерея
+                .swiper.mySwiper 
+                    .swiper-wrapper 
+                        .swiper-slide 
+                            img(src="img/pic/slider/gta-slide-1.png")
+                        .swiper-slide 
+                            img(src="img/pic/slider/gta-slide-2.png")
+                    .swiper-button-next
+                    .swiper-button-prev
